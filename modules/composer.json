@@ -1,0 +1,10 @@
+{
+  "require": {
+    "aws/aws-sdk-php": "^3.283",
+    "payplug/payplug-php": "^2.1",
+    "ramsey/uuid": "^4.7",
+    "ext-pdo": "*",
+    "ovh/ovh": "^3.3",
+    "developermypos/mypos-checkout-sdk": "^1.3"
+  }
+}

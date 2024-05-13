@@ -1,0 +1,288 @@
+/* ============================= forms ============================= */
+#dialogForm div {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+	z-index: 200;
+}
+
+#dialogForm div td {
+    text-align: center;
+}
+#pkmgmt-reservation {margin-top:-2px}
+#pkmgmt-reservation .input  {margin:0;width:520px;height:18px;background:none;padding:4px 10px;color:#000;font:14px Arial, Helvetica, sans-serif}
+
+#dialogForm table,td {
+	border-width: 0;
+}
+
+#pkmgmt-reservation .txtinput { 
+	margin: 0;
+	display: block;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	border-style: solid;
+	/*border-width: 1px;*/
+	border-width: 0;
+	border-color: #dedede;
+	font-size: 1em;
+	padding: 11px 25px;
+	padding-left: 45px;
+	width: 85%;
+	color: #777;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset; 
+	transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+	-webkit-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+	-moz-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+	-o-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+}
+
+#buttons #resetbtn {
+	display: block;
+	float: left;
+	color: #515151;
+	text-shadow: -1px 1px 0px #fff;
+	margin-right: 20px;
+	height: 2em;
+	padding: 0 1em;
+	outline: 0;
+	font-weight: bold;
+	font-size: 1em;
+	white-space: nowrap;
+	word-wrap: normal;
+	/* vertical-align: middle; */
+	cursor: pointer;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background-color: #fff;
+	background-image: -moz-linear-gradient(top,  rgb(255,255,255) 2%, rgb(240,240,240) 2%, rgb(222,222,222) 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(2%,rgb(255,255,255)), color-stop(2%,rgb(240,240,240)), color-stop(100%,rgb(222,222,222)));
+	background-image: -webkit-linear-gradient(top,  rgb(255,255,255) 2%,rgb(240,240,240) 2%,rgb(222,222,222) 100%);
+	background-image: -o-linear-gradient(top,  rgb(255,255,255) 2%,rgb(240,240,240) 2%,rgb(222,222,222) 100%);    
+	background-image: -ms-linear-gradient(top,  rgb(255,255,255) 2%,rgb(240,240,240) 2%,rgb(222,222,222) 100%);
+	background-image: linear-gradient(top,  rgb(255,255,255) 2%,rgb(240,240,240) 2%,rgb(222,222,222) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dedede',GradientType=0 );
+	border: 1px solid #969696;
+	box-shadow: 0 1px 2px rgba(144, 144, 144, 0.4);
+	-moz-box-shadow: 0 1px 2px rgba(144, 144, 144, 0.4);
+	-webkit-box-shadow: 0 1px 2px rgba(144, 144, 144, 0.4);
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+}
+
+#buttons #resetbtn:hover {
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);	
+	color: #818181;
+	background-color: #fff;
+	background-image: -moz-linear-gradient(top,  rgb(255,255,255) 2%, rgb(244,244,244) 2%, rgb(229,229,229) 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(2%,rgb(255,255,255)), color-stop(2%,rgb(244,244,244)), color-stop(100%,rgb(229,229,229)));
+	background-image: -webkit-linear-gradient(top,  rgb(255,255,255) 2%,rgb(244,244,244) 2%,rgb(229,229,229) 100%);
+	background-image: -o-linear-gradient(top,  rgb(255,255,255) 2%,rgb(244,244,244) 2%,rgb(229,229,229) 100%); 
+	background-image: -ms-linear-gradient(top,  rgb(255,255,255) 2%,rgb(244,244,244) 2%,rgb(229,229,229) 100%); 
+	background-image: linear-gradient(top,  rgb(255,255,255) 2%,rgb(244,244,244) 2%,rgb(229,229,229) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+	border-color: #aeaeae;
+	box-shadow: inset 0 1px 0 rgba(256,256,256,0.4),0 1px 3px rgba(0,0,0,0.5);
+}
+
+#buttons #submitbtn {
+	display: block;
+	float: right;
+	height: 2em;
+	padding: 0 1em;
+	border: 1px solid;
+	outline: 0;
+	font-weight: bold;
+	font-size: 1em;
+	color:  #fff;
+	text-shadow: 0px 1px 0px #222;
+	white-space: nowrap;
+	word-wrap: normal;
+	/* vertical-align: middle; */
+	cursor: pointer;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	border-color: #0A0F89 #0A0F89 #000;
+	-moz-box-shadow: inset 0 1px 0 rgba(256,256,256, .35);
+	-ms-box-shadow: inset 0 1px 0 rgba(256,256,256, .35);
+	-webkit-box-shadow: inset 0 1px 0 rgba(256,256,256, .35);
+	box-shadow: inset 0 1px 0 rgba(256,256,256, .35);
+	background-color: rgb(135,206,250);
+	background-image: -moz-linear-gradient(top, rgb(135,206,250) 3%, rgb(47,54,226) 3%, rgb(10,15,137) 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(3%,rgb(135,206,250)), color-stop(3%,rgb(47,54,226)), color-stop(100%,rgb(10,15,137))); 
+	background-image: -webkit-linear-gradient(top, rgb(135,206,250) 3%,rgb(47,54,226) 3%,rgb(10,15,137) 100%);
+	background-image: -o-linear-gradient(top, rgb(135,206,250) 3%,rgb(47,54,226) 3%,rgb(10,15,137) 100%);
+	background-image: -ms-linear-gradient(top, rgb(135,206,250) 3%,rgb(47,54,226) 3%,rgb(10,15,137) 100%);
+	background-image: linear-gradient(top, rgb(135,206,250) 3%,rgb(47,54,226) 3%,rgb(10,15,137) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87CEFA', endColorstr='#0A0F89',GradientType=0 );
+}
+
+#buttons #submitbtn:hover, #buttons #submitbtn:active, #buttons #submitbtn:disabled{
+	border-color: #0A0F89 #0A0F89 #000;
+	color: #fff;
+	-moz-box-shadow: inset 0 1px 0 rgba(256,256,256,0.4),0 1px 3px rgba(0,0,0,0.5);
+	-ms-box-shadow: inset 0 1px 0 rgba(256,256,256,0.4),0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 0 1px 0 rgba(256,256,256,0.4),0 1px 3px rgba(0,0,0,0.5);
+	box-shadow: inset 0 1px 0 rgba(256,256,256,0.4),0 1px 3px rgba(0,0,0,0.5);
+	background: rgb(135,206,250);
+	background: -moz-linear-gradient(top, rgb(135,206,250) 2%, rgb(138,43,226) 3%, rgb(123,104,238) 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,rgb(135,206,250)), color-stop(3%,rgb(138,43,226)), color-stop(100%,rgb(123,104,238))); 
+	background: -webkit-linear-gradient(top, rgb(135,206,250) 2%,rgb(138,43,226) 3%,rgb(123,104,238) 100%); 
+	background: -o-linear-gradient(top, rgb(135,206,250) 2%,rgb(47,54,226) 3%,rgb(123,104,238) 100%); 
+	background: -ms-linear-gradient(top, rgb(135,206,250) 2%,rgb(138,43,226) 3%,rgb(123,104,238) 100%); 
+	background: linear-gradient(top, rgb(135,206,250) 2%,rgb(138,43,226) 3%,rgb(123,104,238) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87CEFA', endColorstr='#7B68EE',GradientType=0 );
+}
+
+#buttons #submitbtn:disabled {
+	cursor: default;
+	/*visibility:hidden;*/
+}
+
+#pkmgmt-reservation .txtinput{ font-size:12px;}
+#reservation-section { display:block; min-width: 730px; margin: 0 auto; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+fieldset.formulaire {
+	background: rgb(255,245,238);
+	background: rgba(255,245,238,0.8);
+	padding-left: 10px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #009;
+	margin: 10px 0px;
+	width: 90%;
+}
+
+fieldset.formulaire legend {
+	width: auto;
+}
+fieldset.formulaire table {
+	width: 100%;
+}
+
+fieldset.buttons {
+	padding: 10px;
+	width: 90%;
+}
+.formulaire td.label {
+	vertical-align: middle;
+	/* width: 20%; */
+	/*display: inline;*/
+	padding: .2em .6em .3em;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1;
+	color: #000;
+	text-align: left;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: .25em;
+	border-top: none;
+	border-left: none;
+}
+
+.fas {
+	color: green;  /* Sets the color of the icon */
+	margin-left: 5px; /* Adds spacing if needed */
+}
+
+
+.entry-header, .page-header, .entry-content, .entry-footer, .tag-links, .post-navigation, .comments-area, .paging-navigation 
+{
+	position: relative;
+	max-width: 900px;
+	max-width: 90rem;
+}
+legend { font-size:15px; font-weight:bold; }
+#pkmgmt-reservation label { width: 200px; padding: 10px; clear:left; float:left; }
+#pkmgmt-reservation .last { padding-bottom: 20px; }
+#pkmgmt-reservation .element { background: none !important; }
+#pkmgmt-reservation ul.element { list-style: none !important; }
+#pkmgmt-reservation table, td { border-width: 0;}
+
+.textfieldRequiredState .textfieldRequiredMsg, .textfieldInvalidFormatState .textfieldInvalidFormatMsg, .textfieldMinValueState .textfieldMinValueMsg, .textfieldMaxValueState .textfieldMaxValueMsg, .textfieldMinCharsState .textfieldMinCharsMsg, .textfieldMaxCharsState .textfieldMaxCharsMsg { vertical-align: middle; }
+#pkmgmt-reservation .txtinput { 
+	/*display: block;*/
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dedede;
+	font-size: 1em;
+	padding: 8px 25px;
+	padding-left: 10px;
+	width: 70%;
+	color: #777;
+	margin: 0;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset; 
+	transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+	-webkit-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+	-moz-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+	-o-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+}
+
+#pkmgmt-reservation #mobile.txtinput { 
+	/*display: block;*/
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dedede;
+	font-size: 1em;
+	padding: 8px 25px;
+	padding-left: 50px;
+	width: 70%;
+	color: #777;
+	margin: 0;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset; 
+	transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+	-webkit-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+	-moz-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+	-o-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+}
+
+#pkmgmt-reservation select { zoom: 0.8; font-size:20px; margin: 9px 0;}
+#pkmgmt-reservation span.error { font-size: 14px; }
+#pkmgmt-reservation td.label { vertical-align:middle; width:20%;}
+
+#pkmgmt-reservation div.pkmgmt-radio {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 5px;
+}
+#pkmgmt-reservation input.pkmgmt-radio-input {
+	position: relative;
+	top: 13px;
+}
+
+#pkmgmt-reservation label.pkmgmt-radio-label {
+	width: 100px;
+}
+
+.ui-dialog, .ui-front {
+	z-index: 300;
+}
+
+.ui-button {
+	padding: 8px;
+}
+
+.cancel_button {
+	background-color: red;
+}
+
+.valid_button {
+	background-color: green;
+}
+
+.cancel_button, .valid_button {
+	color: white;
+	border: none;
+	padding: 10px;
+}

@@ -1,0 +1,37 @@
+<table cellpadding="0" cellspacing="0"> 
+	<tr>
+		<td class="center largeur" style="font-size:30px;" >{_invoice}</td>
+	</tr>
+	<tr>
+		<td class="center" style="font-size:12px;">{_invoicenum}</td>
+	</tr>
+	<tr><td>&nbsp;</td></tr>
+	<tr style="border:1px solid #000;">
+		<td class="center" > {nom} {prenom} </td>
+	</tr>
+	<tr>
+		<td class="center"> {adresse} </td>
+	</tr>
+	<tr>
+		<td class="center">{cp} {ville}</td>
+	</tr>
+</table>
+<table class="detail" cellpadding="0" cellspacing="0">
+	<tr><td colspan="2" class="largeur noborder">&nbsp;</td></tr>
+	<tr>
+		<td class="head" width="300">DESCRIPTION</td><td class="head">MONTANT</td>
+	</tr>
+	{details}
+	<tr>
+		<td class="droite foot noborder">HT</td><td>{HT}</td>
+	</tr>
+	<tr>
+		<td class="droite foot noborder">TVA 10%</td><td>{TVA1}</td>
+	</tr>
+	<tr>
+		<td class="droite foot noborder">TVA 20%</td><td>{TVA2}</td>
+	</tr>
+	<tr>
+		<td class="droite foot noborder">TTC</td><td>{TTC}</td>
+	</tr>
+</table>

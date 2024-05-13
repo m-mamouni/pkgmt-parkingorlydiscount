@@ -1,0 +1,689 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parking Management-fr_FR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-28 09:17+0100\n"
+"PO-Revision-Date: 2019-03-28 09:19+0100\n"
+"Last-Translator: ALEXANDRE David <david@zdm.fr>\n"
+"Language-Team: BLUE LABS IT <wordpress@bluelabs.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SearchPath-0: parking-management\n"
+"X-Poedit-SearchPathExcluded-0: parking-management/admin/js\n"
+"X-Poedit-SearchPathExcluded-1: parking-management/images\n"
+"X-Poedit-SearchPathExcluded-2: parking-management/includes/js\n"
+"X-Poedit-SearchPathExcluded-3: parking-management/modules/vendor\n"
+"X-Poedit-SearchPathExcluded-4: parking-management/modules/tcpdf\n"
+"X-Poedit-SearchPathExcluded-5: parking-management/modules/locale\n"
+
+#: parking-management/admin/admin.php:143
+#: parking-management/admin/admin.php:465
+#: parking-management/admin/admin.php:1132
+#: parking-management/admin/admin.php:1323
+#: parking-management/admin/admin.php:1324
+#: parking-management/admin/admin.php:1358
+#: parking-management/admin/admin.php:1359
+msgid "Parking Management"
+msgstr "Gestion de Parking"
+
+#: parking-management/admin/admin.php:144
+msgid "Car park"
+msgstr "Parking"
+
+#: parking-management/admin/admin.php:150
+#: parking-management/admin/admin.php:151
+msgid "Edit Site"
+msgstr "Modifier un site"
+
+#: parking-management/admin/admin.php:158
+#: parking-management/admin/admin.php:159
+msgid "Add new site"
+msgstr "Ajouter un site"
+
+#: parking-management/admin/admin.php:209
+#: parking-management/admin/admin.php:374
+msgid "You are not allowed to edit this item."
+msgstr "Vous n'avez pas autorisé à modifier cet article."
+
+#: parking-management/admin/admin.php:414
+msgid "You are not allowed to delete this item."
+msgstr "Vous n'êtes pas autorisé à supprimer cet élément."
+
+#: parking-management/admin/admin.php:417
+msgid "Error in deleting."
+msgstr "Erreur lors de la suppression."
+
+#: parking-management/admin/admin.php:503
+#: parking-management/admin/admin.php:522
+msgid "Add a site"
+msgstr "Ajouter un site"
+
+#: parking-management/admin/admin.php:505
+msgid "Edit a site"
+msgstr "Modifier un site"
+
+#: parking-management/admin/admin.php:558
+msgid "Title"
+msgstr "Titre"
+
+#: parking-management/admin/admin.php:562
+#: parking-management/modules/reservation.php:1007
+msgid "Name"
+msgstr "Nom"
+
+#: parking-management/admin/admin.php:568
+msgid ""
+"Copy and paste this code into your home page to include pre booking form."
+msgstr ""
+"Copier coller ce code dans votre page d'accueil pour inclure le formulaire "
+"de pré réservation."
+
+#: parking-management/admin/admin.php:573
+msgid ""
+"Copy this code and paste it into your post, page or text widget content."
+msgstr "Copier et coller le code dans vos pages."
+
+#: parking-management/admin/admin.php:578
+msgid ""
+"Copy this code and paste it into your post, page or text widget content to "
+"add paypal code."
+msgstr ""
+"Copier coller ce code dans votre page/post afin d'ajouter le formulaire "
+"PayPal ."
+
+#: parking-management/admin/admin.php:585
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: parking-management/admin/admin.php:592
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: parking-management/admin/admin.php:597
+#: parking-management/includes/pkmgmt-list-table.php:96
+msgid "Delete"
+msgstr "Supprimer"
+
+#: parking-management/admin/admin.php:599
+msgid ""
+"You are about to delete this site.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Vous êtes sur le point de supprimer ce site.\n"
+" 'Annuler' pout arrêter, 'OK' pour supprimer."
+
+#: parking-management/admin/admin.php:656
+msgid "Database Host"
+msgstr "Serveur de la base de données"
+
+#: parking-management/admin/admin.php:661
+msgid "Database User"
+msgstr "Utilisateur de la base de données"
+
+#: parking-management/admin/admin.php:666
+msgid "Database Password"
+msgstr "Mot de passe de la base de données"
+
+#: parking-management/admin/admin.php:671
+msgid "Database Port"
+msgstr "Port de la base de données"
+
+#: parking-management/admin/admin.php:676
+msgid "Database Name"
+msgstr "Nom de la base de données"
+
+#: parking-management/admin/admin.php:681
+msgid "Bookings table"
+msgstr "Table des réservations"
+
+#: parking-management/admin/admin.php:686
+msgid "Users table"
+msgstr "Table des utilisateurs"
+
+#: parking-management/admin/admin.php:694
+msgid "Services table"
+msgstr "Table des services"
+
+#: parking-management/admin/admin.php:699
+msgid "Area price table"
+msgstr "Table des tarifs aérien"
+
+#: parking-management/admin/admin.php:704
+msgid "Cover price table"
+msgstr "Table des tarifs couvert"
+
+#: parking-management/admin/admin.php:708
+msgid "Begin save Date"
+msgstr "Promotion : date de début"
+
+#: parking-management/admin/admin.php:713
+msgid "End save Date"
+msgstr "Promotion : date de fin"
+
+#: parking-management/admin/admin.php:720
+msgid "Save price table"
+msgstr "Table des tarifs économique"
+
+#: parking-management/admin/admin.php:725
+msgid "Low price table"
+msgstr "Table des tarifs basse saison"
+
+#: parking-management/admin/admin.php:730
+msgid "Booking price table"
+msgstr "Table des prix par réservation"
+
+#: parking-management/admin/admin.php:802
+msgid "Address"
+msgstr "Adresse"
+
+#: parking-management/admin/admin.php:807
+msgid "Phone"
+msgstr "Téléphone"
+
+#: parking-management/admin/admin.php:812
+#: parking-management/modules/reservation.php:1011
+msgid "Email"
+msgstr "Votre Email"
+
+#: parking-management/admin/admin.php:817
+msgid "RCS"
+msgstr "RCS"
+
+#: parking-management/admin/admin.php:822
+msgid "Delivery Message"
+msgstr "Message de Prise en charge"
+
+#: parking-management/admin/admin.php:831
+msgid "CB payment"
+msgstr "Paiement CB"
+
+#: parking-management/admin/admin.php:836
+msgid "Cash payment"
+msgstr "Paiement Espèce"
+
+#: parking-management/admin/admin.php:841
+msgid "Cheque payment"
+msgstr "Paiement Chèque"
+
+#: parking-management/admin/admin.php:850
+#: parking-management/modules/reservation.php:1216
+msgid "Outdoor"
+msgstr "Extérieur"
+
+#: parking-management/admin/admin.php:855
+#: parking-management/modules/reservation.php:1216
+msgid "Indoor"
+msgstr "Intérieur"
+
+#: parking-management/admin/admin.php:880
+msgid "VAT #1"
+msgstr "TVA #1"
+
+#: parking-management/admin/admin.php:885
+msgid "VAT #2"
+msgstr "TVA #2"
+
+#: parking-management/admin/admin.php:890
+msgid "Time"
+msgstr "Horaire"
+
+#: parking-management/admin/admin.php:895
+msgid "Print Logo"
+msgstr "Logo d'impression"
+
+#: parking-management/admin/admin.php:897
+msgid "Choose Image"
+msgstr "Sélectionner une image"
+
+#: parking-management/admin/admin.php:907
+msgid "Legal Information"
+msgstr "Condition générale"
+
+#: parking-management/admin/admin.php:917
+msgid "Taxe on sunday"
+msgstr "Frais pour départ/arrivée le dimanche"
+
+#: parking-management/admin/admin.php:922
+msgid "Taxe on night"
+msgstr "Frais pour départ/arrivée la nuit"
+
+#: parking-management/admin/admin.php:927
+msgid "Taxe on days off"
+msgstr "Frais pour départ et arrivée un jour férié"
+
+#: parking-management/admin/admin.php:937
+msgid "Orly"
+msgstr "Orly"
+
+#: parking-management/admin/admin.php:940
+msgid "Roissy"
+msgstr "Roissy"
+
+#: parking-management/admin/admin.php:943
+msgid "Zaventem"
+msgstr "Zaventem"
+
+#: parking-management/admin/admin.php:954
+msgid "Auto Valid"
+msgstr "Validation client"
+
+#: parking-management/admin/admin.php:959
+msgid "E-MAIL"
+msgstr "EMAIL"
+
+#: parking-management/admin/admin.php:964
+#: parking-management/admin/admin.php:1396
+msgid "Database"
+msgstr "Base de données"
+
+#: parking-management/admin/admin.php:1004
+msgid "Enable"
+msgstr "Activer"
+
+#: parking-management/admin/admin.php:1012
+msgid "Common"
+msgstr "Commun"
+
+#: parking-management/admin/admin.php:1040
+msgid "SMS Type"
+msgstr "Type SMS"
+
+#: parking-management/admin/admin.php:1049
+msgid "SMS Account"
+msgstr "Compte SMS"
+
+#: parking-management/admin/admin.php:1054
+msgid "SMS User"
+msgstr "Utilisateur SMS"
+
+#: parking-management/admin/admin.php:1059
+msgid "SMS Password"
+msgstr "Mot de passe SMS"
+
+#: parking-management/admin/admin.php:1065
+msgid "Timeout session"
+msgstr "Temps de connexion"
+
+#: parking-management/admin/admin.php:1070
+msgid "URL holiday"
+msgstr "URL xml des vacances"
+
+#: parking-management/admin/admin.php:1077
+msgid "SMS Sender"
+msgstr "Emetteur SMS"
+
+#: parking-management/admin/admin.php:1083
+msgid "SMS Message"
+msgstr "Messages SMS"
+
+#: parking-management/admin/admin.php:1134
+msgid "Add New Site"
+msgstr "Ajouter un site"
+
+#: parking-management/admin/admin.php:1182
+#: parking-management/admin/admin.php:1183
+#: parking-management/includes/pkmgmt_form.php:76
+#: parking-management/includes/pkmgmt_form.php:226
+msgid "Untitled"
+msgstr "Non titré"
+
+#: parking-management/admin/admin.php:1204
+#: parking-management/admin/admin.php:1205
+#, php-format
+msgid "Parking %d"
+msgstr "Parking %d"
+
+#: parking-management/admin/admin.php:1215
+msgid "PK Read"
+msgstr "PK Lecteur"
+
+#: parking-management/admin/admin.php:1226
+msgid "PK Manager"
+msgstr "PK Gestionnaire"
+
+#: parking-management/admin/admin.php:1254
+msgid "PK Admin"
+msgstr "PK Administrateur"
+
+#: parking-management/admin/admin.php:1287
+msgid "PK Super Admin"
+msgstr "PK Super Administrateur"
+
+#: parking-management/admin/admin.php:1379
+msgid "Site created."
+msgstr "Site créé."
+
+#: parking-management/admin/admin.php:1381
+msgid "Site saved."
+msgstr "Site sauvegardé."
+
+#: parking-management/admin/admin.php:1383
+msgid "Site deleted."
+msgstr "Site supprimé."
+
+#: parking-management/admin/admin.php:1399
+#: parking-management/modules/reservation.php:999
+msgid "Information"
+msgstr "Information"
+
+#: parking-management/admin/admin.php:1402
+msgid "Paypal"
+msgstr "Paypal"
+
+#: parking-management/admin/admin.php:1405
+msgid "Divers"
+msgstr "Divers"
+
+#: parking-management/admin/admin.php:1408
+msgid "Response"
+msgstr "Réponse"
+
+#: parking-management/includes/pkmgmt-list-table.php:12
+msgid "Site"
+msgstr "Site"
+
+#: parking-management/includes/pkmgmt-list-table.php:13
+msgid "Author"
+msgstr "Auteur"
+
+#: parking-management/includes/pkmgmt-list-table.php:14
+msgid "Date"
+msgstr "Date"
+
+#: parking-management/includes/pkmgmt-list-table.php:119
+msgid "Edit"
+msgstr "Modifier"
+
+#: parking-management/includes/pkmgmt-list-table.php:127
+msgid "Copy"
+msgstr "Copier"
+
+#: parking-management/includes/pkmgmt-list-table.php:132
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Résultat de recherche pour &#8220;%s&8221;"
+
+#: parking-management/includes/pkmgmt-list-table.php:156
+msgid "Y/m/d g:i:s A"
+msgstr "d/m/Y H:i:s"
+
+#: parking-management/includes/pkmgmt-list-table.php:163
+#, php-format
+msgid "%s ago"
+msgstr "Il y a %s"
+
+#: parking-management/includes/pkmgmt-list-table.php:165
+msgid "Y/m/d"
+msgstr "d/m/Y"
+
+#: parking-management/includes/pkmgmt.php:78
+#: parking-management/includes/pkmgmt_form.php:905
+msgid "Validation errors occurred"
+msgstr "Erreur lors de la validation"
+
+#: parking-management/includes/pkmgmt.php:79
+#: parking-management/includes/pkmgmt_form.php:906
+msgid ""
+"Validation errors occurred. Please confirm the fields and submit it again."
+msgstr ""
+"Erreur lors de la validation. Veuillez confirmer le champ et le soumettre à "
+"nouveau."
+
+#: parking-management/includes/pkmgmt.php:83
+#: parking-management/includes/pkmgmt_form.php:920
+msgid "There is a field that the sender must fill in"
+msgstr "Il y a un champs que vous devez remplir"
+
+#: parking-management/includes/pkmgmt.php:84
+#: parking-management/includes/pkmgmt_form.php:921
+msgid "Please fill the required field."
+msgstr "Veuillez renseigner le champ requis."
+
+#: parking-management/includes/pkmgmt_form.php:29
+msgid "Booking Forms"
+msgstr "Formulaires de réservation"
+
+#: parking-management/includes/pkmgmt_form.php:30
+msgid "Booking Form"
+msgstr "Formulaire de réservation"
+
+#: parking-management/includes/pkmgmt_form.php:152
+#, php-format
+msgid ""
+"<code>%1$s</code> property of a <code>PKBKG_BookingForm</code> object is "
+"<strong>no longer accessible</strong>. Use <code>%2$s</code> method instead."
+msgstr ""
+"Le <code>%1$s</code> n'est plus un object disponible. Utiliser <code>%2$s</"
+"code> à la place"
+
+#: parking-management/includes/pkmgmt_form.php:831
+msgid "Your Name"
+msgstr "Votre nom"
+
+#: parking-management/includes/pkmgmt_form.php:831
+#: parking-management/includes/pkmgmt_form.php:833
+msgid "(required)"
+msgstr "(requis)"
+
+#: parking-management/includes/pkmgmt_form.php:833
+msgid "Your Email"
+msgstr "Votre email"
+
+#: parking-management/includes/pkmgmt_form.php:835
+msgid "Subject"
+msgstr "Sujet"
+
+#: parking-management/includes/pkmgmt_form.php:837
+msgid "Your Message"
+msgstr "Message"
+
+#: parking-management/includes/pkmgmt_form.php:839
+msgid "Send"
+msgstr "Envoyer"
+
+#: parking-management/includes/pkmgmt_form.php:847
+#, php-format
+msgid "From: %s"
+msgstr "De : %s"
+
+#: parking-management/includes/pkmgmt_form.php:848
+#, php-format
+msgid "Subject: %s"
+msgstr "Sujet : %s"
+
+#: parking-management/includes/pkmgmt_form.php:849
+msgid "Message Body:"
+msgstr "Messages:"
+
+#: parking-management/includes/pkmgmt_form.php:850
+#, php-format
+msgid "This e-mail was sent from a contact form on %1$s (%2$s)"
+msgstr "Cette email a été envoyer depuis contact de la part de %1$s (%2$s)"
+
+#: parking-management/includes/pkmgmt_form.php:895
+msgid "Sender's message was sent successfully"
+msgstr "Le message à bien été envoyé"
+
+#: parking-management/includes/pkmgmt_form.php:896
+msgid "Your message was sent successfully. Thanks."
+msgstr "Votre message a bien été envoyer. Merci."
+
+#: parking-management/includes/pkmgmt_form.php:900
+msgid "Sender's message was failed to send"
+msgstr "L'envoie de votre message a échoué"
+
+#: parking-management/includes/pkmgmt_form.php:901
+#: parking-management/includes/pkmgmt_form.php:911
+msgid ""
+"Failed to send your message. Please try later or contact the administrator "
+"by another method."
+msgstr ""
+"Echec lors de l'envoie de votre message. Veuillez essayer plus tard ou "
+"contacter l'administrateur par un autre moyen."
+
+#: parking-management/includes/pkmgmt_form.php:910
+msgid "Submission was referred to as spam"
+msgstr "Votre requête a été considérée comme un spam"
+
+#: parking-management/includes/pkmgmt_form.php:915
+msgid "There are terms that the sender must accept"
+msgstr "Il y a un champs que vous devez remplir"
+
+#: parking-management/includes/pkmgmt_form.php:916
+msgid "Please accept the terms to proceed."
+msgstr "Veuillez lire et accepter les conditions générales."
+
+#: parking-management/modules/pkmgmt_pdf.php:222
+msgid "Sending Error"
+msgstr "Erreur d'envoi"
+
+#: parking-management/modules/pkmgmt_pdf.php:253
+msgid "INVOICE"
+msgstr "FACTURE"
+
+#: parking-management/modules/pkmgmt_pdf.php:319
+msgid "DELIVERY"
+msgstr "BON DE PRISE EN CHARGE"
+
+#: parking-management/modules/pkmgmt_pdf.php:410
+#: parking-management/modules/pkmgmt_pdf.php:430
+msgid "Error during PDF creating contact your administrator"
+msgstr "Erreur lors de la creation du PDF contacter votre administrateur"
+
+#: parking-management/modules/reservation.php:305
+msgid "Error RES006"
+msgstr "Erreur RES006"
+
+#: parking-management/modules/reservation.php:332
+msgid "Error RES007"
+msgstr "Erreur RES007"
+
+#: parking-management/modules/reservation.php:832
+msgid "Date of deposite "
+msgstr "Date de dépôt du véhicule "
+
+#: parking-management/modules/reservation.php:833
+msgid "Date of pick up"
+msgstr "Date de reprise du véhicule"
+
+#: parking-management/modules/reservation.php:1000
+msgid "Civility"
+msgstr "Civilité"
+
+#: parking-management/modules/reservation.php:1001
+#: parking-management/modules/reservation.php:1002
+msgid "Miss"
+msgstr "Mademoiselle"
+
+#: parking-management/modules/reservation.php:1003
+#: parking-management/modules/reservation.php:1004
+msgid "Madame"
+msgstr "Madame"
+
+#: parking-management/modules/reservation.php:1005
+#: parking-management/modules/reservation.php:1006
+msgid "Mister"
+msgstr "Monsieur"
+
+#: parking-management/modules/reservation.php:1008
+msgid "Surname"
+msgstr "Prénom"
+
+#: parking-management/modules/reservation.php:1009
+msgid "Zip Code"
+msgstr "Code postal"
+
+#: parking-management/modules/reservation.php:1010
+msgid "Mobile"
+msgstr "Mobile"
+
+#: parking-management/modules/reservation.php:1012
+msgid "Vehicle Model"
+msgstr "Modèle"
+
+#: parking-management/modules/reservation.php:1013
+msgid "Matriculation"
+msgstr "Immatriculation"
+
+#: parking-management/modules/reservation.php:1014
+msgid "Service"
+msgstr "Type de service"
+
+#: parking-management/modules/reservation.php:1038
+msgid "Trip"
+msgstr "Voyage"
+
+#: parking-management/modules/reservation.php:1039
+msgid "Destination"
+msgstr "Destination"
+
+#: parking-management/modules/reservation.php:1088
+msgid "Departure"
+msgstr "Départ"
+
+#: parking-management/modules/reservation.php:1089
+msgid "Date and time of deposit of the vehicle to the parking"
+msgstr "Date et heure de dépôt au parking"
+
+#: parking-management/modules/reservation.php:1145
+msgid "Return"
+msgstr "Retour"
+
+#: parking-management/modules/reservation.php:1146
+msgid "Date and time of landing return"
+msgstr "Date et heure de attérissage retour"
+
+#: parking-management/modules/reservation.php:1147
+msgid "Number of people"
+msgstr "Nombre de personne"
+
+#: parking-management/modules/reservation.php:1163
+msgid "Terms and conditions"
+msgstr "Conditions générales"
+
+#: parking-management/modules/reservation.php:1163
+msgid "Please read and accept the terms and conditions"
+msgstr "Veuillez lire et accepter les conditions générales"
+
+#: parking-management/modules/reservation.php:1176
+msgid "Validate"
+msgstr "Valider"
+
+#~ msgid "Date of departure "
+#~ msgstr "Date de départ"
+
+#~ msgid "Date of landing return"
+#~ msgstr "Date de retour"
+
+#~ msgid "Parking"
+#~ msgstr "Parking"
+
+#~ msgid "TVA #1"
+#~ msgstr "TVA #1"
+
+#~ msgid "TVA #2"
+#~ msgstr "TVA #2"
+
+#~ msgid "Intérieur"
+#~ msgstr "Intérieur"
+
+#~ msgid "Extérieur"
+#~ msgstr "Extérieur"
+
+#~ msgid "Outside"
+#~ msgstr "Extérieur"
+
+#~ msgid "Inside"
+#~ msgstr "Intérieur"
+
+#~ msgid "Payment"
+#~ msgstr "Paiement"

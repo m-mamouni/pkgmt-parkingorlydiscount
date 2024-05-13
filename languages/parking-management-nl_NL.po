@@ -1,0 +1,587 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parking Management-nl_NL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-01 01:11+0100\n"
+"PO-Revision-Date: 2017-03-01 01:11+0100\n"
+"Last-Translator: ALEXANDRE David <david@bluelabs.fr>\n"
+"Language-Team: Blue Labs <wordpress@bluelabs.fr>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/js\n"
+"X-Poedit-SearchPathExcluded-1: modules/vendor\n"
+"X-Poedit-SearchPathExcluded-2: modules/tcpdf\n"
+
+#: admin/admin.php:137 admin/admin.php:438 admin/admin.php:1039
+#: admin/admin.php:1230 admin/admin.php:1231 admin/admin.php:1265
+#: admin/admin.php:1266
+msgid "Parking Management"
+msgstr "Parkeerbeheer"
+
+#: admin/admin.php:138
+msgid "Parking"
+msgstr "Parkeergelegenheid"
+
+#: admin/admin.php:143 admin/admin.php:144
+msgid "Edit Site"
+msgstr "Site bewerken"
+
+#: admin/admin.php:151 admin/admin.php:152
+msgid "Add new site"
+msgstr "Voeg nieuwe site"
+
+#: admin/admin.php:202 admin/admin.php:347
+msgid "You are not allowed to edit this item."
+msgstr "Het is niet toegestaan om dit item te bewerken."
+
+#: admin/admin.php:387
+msgid "You are not allowed to delete this item."
+msgstr "Het is niet toegestaan om dit item te verwijderen."
+
+#: admin/admin.php:390
+msgid "Error in deleting."
+msgstr "Fout in verwijderen."
+
+#: admin/admin.php:476 admin/admin.php:495
+msgid "Add a site"
+msgstr "Voeg een site"
+
+#: admin/admin.php:478
+msgid "Edit a site"
+msgstr "Site bewerken"
+
+#: admin/admin.php:531
+msgid "Title"
+msgstr "Titel"
+
+#: admin/admin.php:535 modules/reservation.php:807
+msgid "Name"
+msgstr "Naam"
+
+#: admin/admin.php:541
+msgid ""
+"Copy this code and paste it into your post, page or text widget content."
+msgstr ""
+"Kopieer deze code en plak het in uw bericht, pagina of tekst widget content."
+
+#: admin/admin.php:548
+msgid "Save"
+msgstr "Save"
+
+#: admin/admin.php:555
+msgid "Duplicate"
+msgstr "Duplicaat"
+
+#: admin/admin.php:560 includes/pkmgmt-list-table.php:96
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: admin/admin.php:562
+msgid ""
+"You are about to delete this site.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Je gaat naar deze site te verwijderen.\n"
+"'Annuleren' om te stoppen, 'OK' om te verwijderen."
+
+#: admin/admin.php:617
+msgid "Database Host"
+msgstr "Database Host"
+
+#: admin/admin.php:622
+msgid "Database User"
+msgstr "Database gebruiker"
+
+#: admin/admin.php:627
+msgid "Database Password"
+msgstr "Database Password"
+
+#: admin/admin.php:632
+msgid "Database Port"
+msgstr "Database Port"
+
+#: admin/admin.php:637
+msgid "Database Name"
+msgstr "Database Naam"
+
+#: admin/admin.php:642
+msgid "Bookings table"
+msgstr "Boekingen tafel"
+
+#: admin/admin.php:647
+msgid "Users table"
+msgstr "Gebruikers table"
+
+#: admin/admin.php:655
+msgid "Services table"
+msgstr "Diensten tafel"
+
+#: admin/admin.php:660
+msgid "Area price table"
+msgstr "Gebied prijstabel"
+
+#: admin/admin.php:665
+msgid "Cover price table"
+msgstr "Cover prijstabel"
+
+#: admin/admin.php:669
+msgid "Begin save Date"
+msgstr ""
+
+#: admin/admin.php:674
+msgid "End save Date"
+msgstr ""
+
+#: admin/admin.php:681
+msgid "Save price table"
+msgstr "Save prijstabel"
+
+#: admin/admin.php:686
+msgid "Low price table"
+msgstr "Lage prijs tafel"
+
+#: admin/admin.php:691
+msgid "Booking price table"
+msgstr "Reservering prijstabel"
+
+#: admin/admin.php:751
+msgid "Address"
+msgstr "Adres"
+
+#: admin/admin.php:756
+msgid "Phone"
+msgstr "Telefoon"
+
+#: admin/admin.php:761 modules/reservation.php:811
+msgid "Email"
+msgstr "Email"
+
+#: admin/admin.php:766
+msgid "RCS"
+msgstr "RCS"
+
+#: admin/admin.php:771
+msgid "Delivery Message"
+msgstr "Delivery Message"
+
+#: admin/admin.php:780
+msgid "CB payment"
+msgstr "CB betaling"
+
+#: admin/admin.php:785
+msgid "Cash payment"
+msgstr "CB betaling"
+
+#: admin/admin.php:790
+msgid "Cheque payment"
+msgstr "Cheque betaling"
+
+#: admin/admin.php:799
+msgid "Outside"
+msgstr "Buitenkant"
+
+#: admin/admin.php:804
+msgid "Inside"
+msgstr "Binnenzijde"
+
+#: admin/admin.php:810
+msgid "TVA #1"
+msgstr "TVA #1"
+
+#: admin/admin.php:815
+msgid "TVA #2"
+msgstr "TVA #2"
+
+#: admin/admin.php:820
+msgid "Time"
+msgstr "Tijd"
+
+#: admin/admin.php:824
+msgid "Print Logo"
+msgstr "Print Logo"
+
+#: admin/admin.php:826
+msgid "Choose Image"
+msgstr "Kies Afbeelding"
+
+#: admin/admin.php:836
+msgid "Legal Information"
+msgstr "Termen en voorwaarden"
+
+#: admin/admin.php:846
+msgid "Taxe on sunday"
+msgstr "Taxe op zondag"
+
+#: admin/admin.php:851
+msgid "Taxe on night"
+msgstr "Taxe op nacht"
+
+#: admin/admin.php:856
+msgid "Taxe on days off"
+msgstr "Belasting op vrije dagen"
+
+#: admin/admin.php:866
+msgid "Orly"
+msgstr "Orly"
+
+#: admin/admin.php:869
+msgid "Roissy"
+msgstr "Roissy"
+
+#: admin/admin.php:872
+msgid "Zaventem"
+msgstr "Zaventem"
+
+#: admin/admin.php:883
+msgid "Auto Valid"
+msgstr "Klant validatie"
+
+#: admin/admin.php:888
+msgid "E-MAIL"
+msgstr "E-MAIL"
+
+#: admin/admin.php:893 admin/admin.php:1306
+msgid "Database"
+msgstr "Database"
+
+#: admin/admin.php:947
+msgid "SMS Type"
+msgstr "SMS Type"
+
+#: admin/admin.php:956
+msgid "SMS Account"
+msgstr "SMS Account"
+
+#: admin/admin.php:961
+msgid "SMS User"
+msgstr "SMS Gebruiker"
+
+#: admin/admin.php:966
+msgid "SMS Password"
+msgstr "SMS Password"
+
+#: admin/admin.php:972
+msgid "Timeout session"
+msgstr "Timeout sessie"
+
+#: admin/admin.php:977
+msgid "URL holiday"
+msgstr "URL vakantie"
+
+#: admin/admin.php:984
+msgid "SMS Sender"
+msgstr "SMS Sender"
+
+#: admin/admin.php:990
+msgid "SMS Message"
+msgstr "SMS bericht"
+
+#: admin/admin.php:1040
+msgid "Add New Site"
+msgstr "Voeg Nieuwe site"
+
+#: admin/admin.php:1088 admin/admin.php:1089
+msgid "Untitled"
+msgstr "Untitled"
+
+#: admin/admin.php:1109 admin/admin.php:1110
+#, php-format
+msgid "Parking %d"
+msgstr "Parkeergelegenheid %d"
+
+#: admin/admin.php:1122
+msgid "PK Read"
+msgstr "PK Lezen"
+
+#: admin/admin.php:1133
+msgid "PK Manager"
+msgstr "PK Manager"
+
+#: admin/admin.php:1161
+msgid "PK Admin"
+msgstr "PK Beheerder"
+
+#: admin/admin.php:1194
+msgid "PK Super Admin"
+msgstr "PK Groot Beheerder"
+
+#: admin/admin.php:1286
+msgid "Site created."
+msgstr "Site gemaakt."
+
+#: admin/admin.php:1288
+msgid "Site saved."
+msgstr "Site opgeslagen."
+
+#: admin/admin.php:1290
+msgid "Site deleted."
+msgstr "Site verwijderd."
+
+#: admin/admin.php:1309 modules/reservation.php:799
+msgid "Information"
+msgstr "Informatie"
+
+#: admin/admin.php:1312
+msgid "Divers"
+msgstr "Divers"
+
+#: admin/admin.php:1315
+msgid "Response"
+msgstr "Respons"
+
+#: includes/pkmgmt-list-table.php:12
+msgid "Site"
+msgstr "Site"
+
+#: includes/pkmgmt-list-table.php:13
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/pkmgmt-list-table.php:14
+msgid "Date"
+msgstr "Datum"
+
+#: includes/pkmgmt-list-table.php:119
+msgid "Edit"
+msgstr "Bewerk"
+
+#: includes/pkmgmt-list-table.php:127
+msgid "Copy"
+msgstr "Kopiëren"
+
+#: includes/pkmgmt-list-table.php:132
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Bewerk &#8220;%s&#8221;"
+
+#: includes/pkmgmt-list-table.php:156
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: includes/pkmgmt-list-table.php:163
+#, php-format
+msgid "%s ago"
+msgstr "%s Geleden"
+
+#: includes/pkmgmt-list-table.php:165
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#: includes/pkmgmt.php:78
+msgid "Validation errors occurred"
+msgstr "Validatiefouten opgetreden"
+
+#: includes/pkmgmt.php:79
+msgid ""
+"Validation errors occurred. Please confirm the fields and submit it again."
+msgstr ""
+"Validatiefouten opgetreden. Kunt u bevestigen dat de velden en legt dit weer."
+
+#: includes/pkmgmt.php:83
+msgid "There is a field that the sender must fill in"
+msgstr "Er is een gebied dat de afzender dient in te vullen"
+
+#: includes/pkmgmt.php:84
+msgid "Please fill the required field."
+msgstr "Vul het gewenste veld."
+
+#: modules/pkmgmt_pdf.php:222
+msgid "Sending Error"
+msgstr "Het verzenden van Error"
+
+#: modules/pkmgmt_pdf.php:253
+msgid "INVOICE"
+msgstr "FACTUUR"
+
+#: modules/pkmgmt_pdf.php:319
+msgid "DELIVERY"
+msgstr "LEVERING"
+
+#: modules/pkmgmt_pdf.php:410 modules/pkmgmt_pdf.php:430
+msgid "Error during PDF creating contact your administrator"
+msgstr "Fout tijdens PDF creëren contact op met de beheerder"
+
+#: modules/reservation.php:276
+msgid "Error RES006"
+msgstr "Erreur RES006"
+
+#: modules/reservation.php:302
+msgid "Error RES007"
+msgstr "Erreur RES007"
+
+#: modules/reservation.php:800
+msgid "Civility"
+msgstr "Beleefdheid"
+
+#: modules/reservation.php:801 modules/reservation.php:802
+msgid "Miss"
+msgstr "Missen"
+
+#: modules/reservation.php:803 modules/reservation.php:804
+msgid "Madame"
+msgstr "Mevrouw"
+
+#: modules/reservation.php:805 modules/reservation.php:806
+msgid "Mister"
+msgstr "Meneer"
+
+#: modules/reservation.php:808
+msgid "Surname"
+msgstr "Achternaam"
+
+#: modules/reservation.php:809
+msgid "Zip Code"
+msgstr "Postcode"
+
+#: modules/reservation.php:810
+msgid "Mobile"
+msgstr "Mobiel"
+
+#: modules/reservation.php:812
+msgid "Vehicle Model"
+msgstr "Model van het voertuig"
+
+#: modules/reservation.php:813
+msgid "Matriculation"
+msgstr "Registratie"
+
+#: modules/reservation.php:814
+msgid "Service"
+msgstr "Soort dienst"
+
+#: modules/reservation.php:838
+msgid "Trip"
+msgstr "Reis"
+
+#: modules/reservation.php:839
+msgid "Destination"
+msgstr "Bestemming"
+
+#: modules/reservation.php:888
+msgid "Departure"
+msgstr "Vertrek"
+
+#: modules/reservation.php:889
+msgid "Date and time of deposit of the vehicle to the parking"
+msgstr ""
+"Datum en tijdstip van de neerlegging van het voertuig naar de parkeerplaats"
+
+#: modules/reservation.php:945
+msgid "Return"
+msgstr "Terugkeer"
+
+#: modules/reservation.php:946
+msgid "Date and time of landing return"
+msgstr "Datum en tijd van de landing terugkeer"
+
+#: modules/reservation.php:947
+msgid "Number of people"
+msgstr "Number of people"
+
+#: modules/reservation.php:963
+msgid "Terms and conditions"
+msgstr "Termen en voorwaarden"
+
+#: modules/reservation.php:963
+msgid "Please read and accept the terms and conditions"
+msgstr "Lees en accepteer de voorwaarden en condities"
+
+#: modules/reservation.php:976
+msgid "Validate"
+msgstr "Valideren"
+
+#: modules/reservation.php:1015
+msgid "Indoor"
+msgstr "Binnen"
+
+#: modules/reservation.php:1015
+msgid "Outdoor"
+msgstr "Buitenshuis"
+
+#~ msgid "Booking confirmation"
+#~ msgstr "Boekingsbevestiging"
+
+#~ msgid "created"
+#~ msgstr "aangemaakt"
+
+#~ msgid "saved"
+#~ msgstr "gered"
+
+#~ msgid "Mode of payment"
+#~ msgstr "Payment Method"
+
+#~ msgid "Type of care"
+#~ msgstr "Type kind"
+
+#~ msgid "Extra option"
+#~ msgstr "Extra optie"
+
+#~ msgid "Terminals"
+#~ msgstr "Terminals"
+
+#~ msgid "Managements"
+#~ msgstr "Beheer"
+
+#~ msgid "Response Subject"
+#~ msgstr "Reactie Onderwerp"
+
+#~ msgid "Database record error"
+#~ msgstr "Database record fout"
+
+#~ msgid "Validation error"
+#~ msgstr "Validatiefout"
+
+#~ msgid "The %s field must be filled!"
+#~ msgstr "Het %s veld moet worden ingevuld!"
+
+#~ msgid "Zip code incorrect"
+#~ msgstr "Postcode onjuist"
+
+#~ msgid "Enter correctly your mobile number"
+#~ msgstr "Voer correct uw mobiele nummer"
+
+#~ msgid "Email incorrect"
+#~ msgstr "Email incorrect"
+
+#~ msgid "Date incorrect"
+#~ msgstr "Datum onjuist"
+
+#~ msgid "Template"
+#~ msgstr "Sjabloon"
+
+#~ msgid "Messages"
+#~ msgstr "Berichten"
+
+#~ msgid "New Site"
+#~ msgstr "Ajouter un site"
+
+#~ msgid "Site name"
+#~ msgstr "Nom"
+
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+
+#~ msgid "French"
+#~ msgstr "Français"
+
+#~ msgid "(required)"
+#~ msgstr "(requis)"
+
+#~ msgid "Subject"
+#~ msgstr "Sujet"
+
+#~ msgid "Send"
+#~ msgstr "Envoyer"
+
+#~ msgid "Add Site"
+#~ msgstr "Ajouter un site"

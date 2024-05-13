@@ -1,0 +1,58 @@
+<style type="text/css">
+#invoice td.head 
+{
+	height: 22px;color: #FFF;background-color: #3C3C3C;text-align: center;border: 1px solid #fff;
+}
+
+#invoice td 
+{
+	margin: 0;
+	padding: 0 5px;
+	height: 22px;
+
+}
+
+#invoice .largeur
+{
+	width: 550px;
+}
+.detail td
+{
+	border: 1px solid black;
+}
+
+td.noborder
+{
+	border:none;
+}
+
+.gauche
+{
+	text-align: left;
+	font-size: 10px;
+	text-align: left;
+	width: 120px;
+
+}
+
+.droite
+{
+	text-align: right;
+}
+
+.center
+{
+	text-align: center;
+	vertical-align:middle;
+}
+
+div
+{
+	display:block;
+}
+
+.largeur
+{
+	width: 500px;
+}
+</style>

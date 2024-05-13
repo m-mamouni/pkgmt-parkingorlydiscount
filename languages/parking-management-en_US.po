@@ -1,0 +1,611 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Parking Management-en_US\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-19 05:46+0100\n"
+"PO-Revision-Date: 2019-03-19 05:46+0100\n"
+"Last-Translator: ALEXANDRE David <david@zdm.fr>\n"
+"Language-Team: Blue Labs <wordpress@bluelabs.fr>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: admin/js\n"
+"X-Poedit-SearchPathExcluded-1: images\n"
+"X-Poedit-SearchPathExcluded-2: includes/js\n"
+"X-Poedit-SearchPathExcluded-3: modules/vendor\n"
+"X-Poedit-SearchPathExcluded-4: modules/tcpdf\n"
+"X-Poedit-SearchPathExcluded-5: modules/locale\n"
+
+#: admin/admin.php:140 admin/admin.php:460 admin/admin.php:1116
+#: admin/admin.php:1307 admin/admin.php:1308 admin/admin.php:1342
+#: admin/admin.php:1343
+msgid "Parking Management"
+msgstr ""
+
+#: admin/admin.php:141
+msgid "Car park"
+msgstr ""
+
+#: admin/admin.php:147 admin/admin.php:148
+msgid "Edit Site"
+msgstr ""
+
+#: admin/admin.php:155 admin/admin.php:156
+msgid "Add new site"
+msgstr ""
+
+#: admin/admin.php:206 admin/admin.php:369
+msgid "You are not allowed to edit this item."
+msgstr ""
+
+#: admin/admin.php:409
+msgid "You are not allowed to delete this item."
+msgstr ""
+
+#: admin/admin.php:412
+msgid "Error in deleting."
+msgstr ""
+
+#: admin/admin.php:498 admin/admin.php:517
+msgid "Add a site"
+msgstr ""
+
+#: admin/admin.php:500
+msgid "Edit a site"
+msgstr ""
+
+#: admin/admin.php:553
+msgid "Title"
+msgstr ""
+
+#: admin/admin.php:557 modules/reservation.php:1000
+msgid "Name"
+msgstr ""
+
+#: admin/admin.php:563
+msgid ""
+"Copy and paste this code into your home page to include pre booking form."
+msgstr ""
+
+#: admin/admin.php:568
+msgid ""
+"Copy this code and paste it into your post, page or text widget content."
+msgstr ""
+
+#: admin/admin.php:573
+msgid ""
+"Copy this code and paste it into your post, page or text widget content to "
+"add paypal code."
+msgstr ""
+
+#: admin/admin.php:580
+msgid "Save"
+msgstr ""
+
+#: admin/admin.php:587
+msgid "Duplicate"
+msgstr ""
+
+#: admin/admin.php:592 includes/pkmgmt-list-table.php:96
+msgid "Delete"
+msgstr ""
+
+#: admin/admin.php:594
+msgid ""
+"You are about to delete this site.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: admin/admin.php:651
+msgid "Database Host"
+msgstr ""
+
+#: admin/admin.php:656
+msgid "Database User"
+msgstr ""
+
+#: admin/admin.php:661
+msgid "Database Password"
+msgstr ""
+
+#: admin/admin.php:666
+msgid "Database Port"
+msgstr ""
+
+#: admin/admin.php:671
+msgid "Database Name"
+msgstr ""
+
+#: admin/admin.php:676
+msgid "Bookings table"
+msgstr ""
+
+#: admin/admin.php:681
+msgid "Users table"
+msgstr ""
+
+#: admin/admin.php:689
+msgid "Services table"
+msgstr ""
+
+#: admin/admin.php:694
+msgid "Area price table"
+msgstr ""
+
+#: admin/admin.php:699
+msgid "Cover price table"
+msgstr ""
+
+#: admin/admin.php:703
+msgid "Begin save Date"
+msgstr ""
+
+#: admin/admin.php:708
+msgid "End save Date"
+msgstr ""
+
+#: admin/admin.php:715
+msgid "Save price table"
+msgstr ""
+
+#: admin/admin.php:720
+msgid "Low price table"
+msgstr ""
+
+#: admin/admin.php:725
+msgid "Booking price table"
+msgstr ""
+
+#: admin/admin.php:787
+msgid "Address"
+msgstr ""
+
+#: admin/admin.php:792
+msgid "Phone"
+msgstr ""
+
+#: admin/admin.php:797 modules/reservation.php:1004
+msgid "Email"
+msgstr ""
+
+#: admin/admin.php:802
+msgid "RCS"
+msgstr ""
+
+#: admin/admin.php:807
+msgid "Delivery Message"
+msgstr ""
+
+#: admin/admin.php:816
+msgid "CB payment"
+msgstr ""
+
+#: admin/admin.php:821
+msgid "Cash payment"
+msgstr ""
+
+#: admin/admin.php:826
+msgid "Cheque payment"
+msgstr ""
+
+#: admin/admin.php:835 modules/reservation.php:1209
+msgid "Outdoor"
+msgstr ""
+
+#: admin/admin.php:840 modules/reservation.php:1209
+msgid "Indoor"
+msgstr ""
+
+#: admin/admin.php:865
+msgid "VAT #1"
+msgstr ""
+
+#: admin/admin.php:870
+msgid "VAT #2"
+msgstr ""
+
+#: admin/admin.php:875
+msgid "Time"
+msgstr ""
+
+#: admin/admin.php:879
+msgid "Print Logo"
+msgstr ""
+
+#: admin/admin.php:881
+msgid "Choose Image"
+msgstr ""
+
+#: admin/admin.php:891
+msgid "Legal Information"
+msgstr ""
+
+#: admin/admin.php:901
+msgid "Taxe on sunday"
+msgstr ""
+
+#: admin/admin.php:906
+msgid "Taxe on night"
+msgstr ""
+
+#: admin/admin.php:911
+msgid "Taxe on days off"
+msgstr ""
+
+#: admin/admin.php:921
+msgid "Orly"
+msgstr ""
+
+#: admin/admin.php:924
+msgid "Roissy"
+msgstr ""
+
+#: admin/admin.php:927
+msgid "Zaventem"
+msgstr ""
+
+#: admin/admin.php:938
+msgid "Auto Valid"
+msgstr ""
+
+#: admin/admin.php:943
+msgid "E-MAIL"
+msgstr ""
+
+#: admin/admin.php:948 admin/admin.php:1380
+msgid "Database"
+msgstr ""
+
+#: admin/admin.php:988
+msgid "Enable"
+msgstr ""
+
+#: admin/admin.php:996
+msgid "Common"
+msgstr ""
+
+#: admin/admin.php:1024
+msgid "SMS Type"
+msgstr ""
+
+#: admin/admin.php:1033
+msgid "SMS Account"
+msgstr ""
+
+#: admin/admin.php:1038
+msgid "SMS User"
+msgstr ""
+
+#: admin/admin.php:1043
+msgid "SMS Password"
+msgstr ""
+
+#: admin/admin.php:1049
+msgid "Timeout session"
+msgstr ""
+
+#: admin/admin.php:1054
+msgid "URL holiday"
+msgstr ""
+
+#: admin/admin.php:1061
+msgid "SMS Sender"
+msgstr ""
+
+#: admin/admin.php:1067
+msgid "SMS Message"
+msgstr ""
+
+#: admin/admin.php:1118
+msgid "Add New Site"
+msgstr ""
+
+#: admin/admin.php:1166 admin/admin.php:1167 includes/pkmgmt_form.php:76
+#: includes/pkmgmt_form.php:226
+msgid "Untitled"
+msgstr ""
+
+#: admin/admin.php:1188 admin/admin.php:1189
+#, php-format
+msgid "Parking %d"
+msgstr ""
+
+#: admin/admin.php:1199
+msgid "PK Read"
+msgstr ""
+
+#: admin/admin.php:1210
+msgid "PK Manager"
+msgstr ""
+
+#: admin/admin.php:1238
+msgid "PK Admin"
+msgstr ""
+
+#: admin/admin.php:1271
+msgid "PK Super Admin"
+msgstr ""
+
+#: admin/admin.php:1363
+msgid "Site created."
+msgstr ""
+
+#: admin/admin.php:1365
+msgid "Site saved."
+msgstr ""
+
+#: admin/admin.php:1367
+msgid "Site deleted."
+msgstr ""
+
+#: admin/admin.php:1383 modules/reservation.php:992
+msgid "Information"
+msgstr ""
+
+#: admin/admin.php:1386
+msgid "Paypal"
+msgstr ""
+
+#: admin/admin.php:1389
+msgid "Divers"
+msgstr ""
+
+#: admin/admin.php:1392
+msgid "Response"
+msgstr ""
+
+#: includes/pkmgmt-list-table.php:12
+msgid "Site"
+msgstr ""
+
+#: includes/pkmgmt-list-table.php:13
+msgid "Author"
+msgstr ""
+
+#: includes/pkmgmt-list-table.php:14
+msgid "Date"
+msgstr ""
+
+#: includes/pkmgmt-list-table.php:119
+msgid "Edit"
+msgstr ""
+
+#: includes/pkmgmt-list-table.php:127
+msgid "Copy"
+msgstr ""
+
+#: includes/pkmgmt-list-table.php:132
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/pkmgmt-list-table.php:156
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: includes/pkmgmt-list-table.php:163
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/pkmgmt-list-table.php:165
+msgid "Y/m/d"
+msgstr ""
+
+#: includes/pkmgmt.php:78 includes/pkmgmt_form.php:900
+msgid "Validation errors occurred"
+msgstr ""
+
+#: includes/pkmgmt.php:79 includes/pkmgmt_form.php:901
+msgid ""
+"Validation errors occurred. Please confirm the fields and submit it again."
+msgstr ""
+
+#: includes/pkmgmt.php:83 includes/pkmgmt_form.php:915
+msgid "There is a field that the sender must fill in"
+msgstr ""
+
+#: includes/pkmgmt.php:84 includes/pkmgmt_form.php:916
+msgid "Please fill the required field."
+msgstr ""
+
+#: includes/pkmgmt_form.php:29
+msgid "Booking Forms"
+msgstr ""
+
+#: includes/pkmgmt_form.php:30
+msgid "Booking Form"
+msgstr ""
+
+#: includes/pkmgmt_form.php:152
+#, php-format
+msgid ""
+"<code>%1$s</code> property of a <code>PKBKG_BookingForm</code> object is "
+"<strong>no longer accessible</strong>. Use <code>%2$s</code> method instead."
+msgstr ""
+
+#: includes/pkmgmt_form.php:831
+msgid "Your Name"
+msgstr ""
+
+#: includes/pkmgmt_form.php:831 includes/pkmgmt_form.php:833
+msgid "(required)"
+msgstr ""
+
+#: includes/pkmgmt_form.php:833
+msgid "Your Email"
+msgstr ""
+
+#: includes/pkmgmt_form.php:835
+msgid "Subject"
+msgstr ""
+
+#: includes/pkmgmt_form.php:837
+msgid "Your Message"
+msgstr ""
+
+#: includes/pkmgmt_form.php:839
+msgid "Send"
+msgstr ""
+
+#: includes/pkmgmt_form.php:847
+#, php-format
+msgid "From: %s"
+msgstr ""
+
+#: includes/pkmgmt_form.php:848
+#, php-format
+msgid "Subject: %s"
+msgstr ""
+
+#: includes/pkmgmt_form.php:849
+msgid "Message Body:"
+msgstr ""
+
+#: includes/pkmgmt_form.php:850
+#, php-format
+msgid "This e-mail was sent from a contact form on %1$s (%2$s)"
+msgstr ""
+
+#: includes/pkmgmt_form.php:890
+msgid "Sender's message was sent successfully"
+msgstr ""
+
+#: includes/pkmgmt_form.php:891
+msgid "Your message was sent successfully. Thanks."
+msgstr ""
+
+#: includes/pkmgmt_form.php:895
+msgid "Sender's message was failed to send"
+msgstr ""
+
+#: includes/pkmgmt_form.php:896 includes/pkmgmt_form.php:906
+msgid ""
+"Failed to send your message. Please try later or contact the administrator "
+"by another method."
+msgstr ""
+
+#: includes/pkmgmt_form.php:905
+msgid "Submission was referred to as spam"
+msgstr ""
+
+#: includes/pkmgmt_form.php:910
+msgid "There are terms that the sender must accept"
+msgstr ""
+
+#: includes/pkmgmt_form.php:911
+msgid "Please accept the terms to proceed."
+msgstr ""
+
+#: modules/pkmgmt_pdf.php:222
+msgid "Sending Error"
+msgstr ""
+
+#: modules/pkmgmt_pdf.php:253
+msgid "INVOICE"
+msgstr ""
+
+#: modules/pkmgmt_pdf.php:319
+msgid "DELIVERY"
+msgstr ""
+
+#: modules/pkmgmt_pdf.php:410 modules/pkmgmt_pdf.php:430
+msgid "Error during PDF creating contact your administrator"
+msgstr ""
+
+#: modules/reservation.php:295
+msgid "Error RES006"
+msgstr ""
+
+#: modules/reservation.php:322
+msgid "Error RES007"
+msgstr ""
+
+#: modules/reservation.php:823 modules/reservation.php:1081
+msgid "Departure"
+msgstr ""
+
+#: modules/reservation.php:824 modules/reservation.php:1082
+msgid "Date and time of deposit of the vehicle to the parking"
+msgstr ""
+
+#: modules/reservation.php:825 modules/reservation.php:1138
+msgid "Return"
+msgstr ""
+
+#: modules/reservation.php:826 modules/reservation.php:1139
+msgid "Date and time of landing return"
+msgstr ""
+
+#: modules/reservation.php:993
+msgid "Civility"
+msgstr ""
+
+#: modules/reservation.php:994 modules/reservation.php:995
+msgid "Miss"
+msgstr ""
+
+#: modules/reservation.php:996 modules/reservation.php:997
+msgid "Madame"
+msgstr ""
+
+#: modules/reservation.php:998 modules/reservation.php:999
+msgid "Mister"
+msgstr ""
+
+#: modules/reservation.php:1001
+msgid "Surname"
+msgstr ""
+
+#: modules/reservation.php:1002
+msgid "Zip Code"
+msgstr ""
+
+#: modules/reservation.php:1003
+msgid "Mobile"
+msgstr ""
+
+#: modules/reservation.php:1005
+msgid "Vehicle Model"
+msgstr ""
+
+#: modules/reservation.php:1006
+msgid "Matriculation"
+msgstr ""
+
+#: modules/reservation.php:1007
+msgid "Service"
+msgstr ""
+
+#: modules/reservation.php:1031
+msgid "Trip"
+msgstr ""
+
+#: modules/reservation.php:1032
+msgid "Destination"
+msgstr ""
+
+#: modules/reservation.php:1140
+msgid "Number of people"
+msgstr ""
+
+#: modules/reservation.php:1156
+msgid "Terms and conditions"
+msgstr ""
+
+#: modules/reservation.php:1156
+msgid "Please read and accept the terms and conditions"
+msgstr ""
+
+#: modules/reservation.php:1169
+msgid "Validate"
+msgstr ""

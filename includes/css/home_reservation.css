@@ -1,0 +1,128 @@
+@media screen and (min-width: 600px) {
+    form #pkmgmt-home-reservation {
+        width: 440px;
+    }
+    #home_form_navette {
+        width: 242px;
+        float: left;
+    }
+    div #home_form_retour fieldset {
+        width: 242px;
+    }
+}
+
+form#pkmgmt-home-reservation {
+    width: 520px;
+    height: 145px;
+    position: relative;
+    display: inline-block;
+    margin: -5px 0;
+    background-color: #7cbf00;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+form#pkmgmt-home-reservation fieldset{
+    border: none;
+}
+
+div.home_form_navette {
+    display: inline-block;
+    width: 242px;
+    float: left;
+}
+form#pkmgmt-home-reservation div table tbody tr td {
+    background-color: rgba(0, 0, 0, 0.08);
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+form#pkmgmt-home-reservation div table  {
+    border: none;
+}
+
+form#pkmgmt-home-reservation div fieldset {
+    display: inline;
+    border: none;
+    margin: 0;
+    padding: 10px;
+}
+form#pkmgmt-home-reservation div fieldset legend {
+    height: 10px;
+    background-color: transparent;
+    color: #fff;
+    position: static;
+    left: auto;
+    top: auto;
+    padding-top: 10px;
+}
+
+div.home_form_retour {
+    display: inline-block;
+}
+
+div#home_form_estimation {
+    position: absolute;
+    right: 15px;
+    top: 100%;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    z-index: 100;
+    padding: 20px;
+    border: 1px solid #f3f3f3;
+    box-sizing: border-box;
+    box-shadow: 0 3px 7px 4px rgba(2, 2, 2, 0.05);
+    display: none;
+}
+
+.home_form_estimation div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    color: #333;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    border: 1px solid #f1f1f1;
+}
+
+.home_form_estimation div.pkmgmt-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 45%;
+    height: 100px;
+}
+
+.pkmgmt-header div:first-child {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    vertical-align: middle;
+    align-self: center;
+    width: auto;
+    max-width: none;
+}
+
+.pkmgmt-header > div:last-child > div.pkmgmt-amount {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: Arial;
+    margin-bottom: 10px;
+    color: #67be29;
+}
+
+.pkmgmt-header > div:last-child > div.pkmgmt-days {
+    text-align: center;
+}
+
+div.pkmgmt-days {
+    display: none;
+}
+form#ext-tarif {
+    align-self: center;
+}

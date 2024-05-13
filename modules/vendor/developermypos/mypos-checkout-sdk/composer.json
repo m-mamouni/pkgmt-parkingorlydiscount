@@ -1,0 +1,20 @@
+{
+  "name": "developermypos/mypos-checkout-sdk",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://developers.mypos.eu",
+  "description": "myPOS Checkout SDK PHP",
+  "keywords": [
+    "myPOS",
+    "myPOS Checkout",
+    "SDK"
+  ],
+  "require": {
+    "php": ">=5.4.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mypos\\IPC\\": "IPC/"
+    }
+  }
+}
